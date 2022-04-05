@@ -128,3 +128,16 @@ void Poligono::desenhaAresta(int n)
     glEnd();
 }
 
+Poligono Poligono::GeraConvexHull(){
+    Poligono convex;
+    Ponto PMin, PMax;
+
+    obtemLimites(PMin, PMax);
+
+    // procura o menor ponto em y e começa com produto escalar pro vetor (1,0)
+
+
+    return convex;
+}
+
+
