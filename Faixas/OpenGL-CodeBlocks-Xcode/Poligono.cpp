@@ -133,10 +133,16 @@ Poligono Poligono::GeraConvexHull(){
     Ponto PMin, PMax;
 
     obtemLimites(PMin, PMax);
-
+/**
+    Ponto Start;
     // procura o menor ponto em y e começa com produto escalar pro vetor (1,0)
-
-
+    for(int i = 0; i < Vertices.size(); i++){
+        if(PMin.x == getVertice(i).x){
+            Start = getVertice(i);
+            break;
+        }
+    }
+*/
     return convex;
 }
 
