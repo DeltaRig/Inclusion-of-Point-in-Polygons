@@ -142,7 +142,10 @@ Poligono Poligono::GeraConvexHull(){
             break;
         }
     }
+    Ponto VetorDir = (1,0);
+    double ProdEsc = ProdEscalar(Start, VetorDir);
 */
+    
     return convex;
 }
 
